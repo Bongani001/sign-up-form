@@ -13,11 +13,6 @@
     padding: 0px;
 }
 
-input:focus {
-    border-color: blue;
-}
-
-
 @font-face {
     font-family: 'signFont';
     src: url(./Norse-Bold.otf);
@@ -65,7 +60,7 @@ img {
     color: white;
     position: absolute;
     bottom: 4px;
-    left: 230px;
+    left: 260px;
 }
 
 a {
@@ -102,9 +97,15 @@ main {
 }
 
 input {
-    border: 2px solid #E5E7EB;
+    border: 1px solid #E5E7EB;
     border-radius: 4px;
     height: 20px;
+}
+
+input:focus {
+    outline: none;
+    border-color: rgb(3, 3, 255);
+    box-shadow: 1px 1px rgb(85, 85, 88);
 }
 
 button {
